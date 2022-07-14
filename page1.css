@@ -1,0 +1,96 @@
+@font-face { font-family: 'GmarketSansMedium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff'); font-weight: normal; font-style: normal; }
+.logo{
+    height: 400px;
+    background:white
+}
+section{
+    height: 400px;
+    background: url(wall.jpg)fixed; 
+    
+    
+}
+.logophoto{
+    position:absolute;
+    height:310px;
+    top:50px;
+    left: 40%;
+
+}
+.배경2{
+    background: url(콜린배경.jpg);
+    height: 400px;
+}
+.배경3{
+    background:powderblue;
+    height: 700px;
+}
+body{
+    margin: 0;
+    height: 2500px;
+}
+.photo1{
+    position:absolute;
+    height:310px;
+    top:430px;
+    right: 300px;
+}
+.콜린1{
+    position:absolute;
+    height:400px;
+    top:710px;
+    right: 590px;}
+    
+
+    .콜린2{
+        position:absolute;
+        height:350px;
+        top:850px;
+        right: 350px;}
+.콜린3{
+    position:absolute;
+    height:400px;
+    top:800px;
+    right: 60px;}
+h1{
+    font-size: 6em;
+    width: 600px;
+    font-family: 'GmarketSansMedium';
+    color:gray;
+    margin: 0;
+    position: absolute;
+    left: 50px;
+    top:450px;
+    animation: slide 1s ease-out;
+}
+.콜린텍스트{
+    font-size: 4em;
+    width: 450px;
+    position: absolute;
+    top:900px;
+    left:50px;
+    font-family: 'GmarketSansMedium';
+    color: white;
+    animation: slide 3s ease-out;
+    
+}
+
+@keyframes slide {
+    from{
+        left:-800px;
+        opacity: 0;
+    }
+    to{
+        left:50px;
+        opacity: 1;
+    }
+}
+@keyframes back {
+    from{left:50px;
+        opacity: 1;
+
+    }
+    to{
+        left:-800px;
+        opacity: 0;
+    }
+}
