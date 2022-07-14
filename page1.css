@@ -52,8 +52,8 @@ body{
     top:800px;
     right: 60px;}
 h1{
-    font-size: 6em;
-    width: 900px;
+    font-size: 4em;
+    width: 510px;
     font-family: 'GmarketSansMedium';
     color:gray;
     margin: 0;
@@ -76,7 +76,7 @@ h1{
 .mokoko{
     position:absolute;
     height:400px;
-    top:900px;
+    top:1300px;
     left: 50px;
     animation:slide 1s ease-out;
 
