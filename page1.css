@@ -53,7 +53,7 @@ body{
     right: 60px;}
 h1{
     font-size: 4em;
-    width: 500px;
+    width: 450px;
     font-family: 'GmarketSansMedium';
     color:gray;
     margin: 0;
@@ -64,7 +64,7 @@ h1{
 }
 .콜린텍스트{
     font-size: 4em;
-    width: 480px;
+    width: 450px;
     position: absolute;
     top:900px;
     left:50px;
